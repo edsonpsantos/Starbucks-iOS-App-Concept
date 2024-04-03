@@ -8,17 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		2DD0965A2BBD684A0043ED78 /* starbucksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096592BBD684A0043ED78 /* starbucksApp.swift */; };
-		2DD0965C2BBD684A0043ED78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0965B2BBD684A0043ED78 /* ContentView.swift */; };
 		2DD0965E2BBD684B0043ED78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD0965D2BBD684B0043ED78 /* Assets.xcassets */; };
 		2DD096612BBD684B0043ED78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD096602BBD684B0043ED78 /* Preview Assets.xcassets */; };
+		2DD0966E2BBD6DA40043ED78 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0966D2BBD6DA40043ED78 /* Color.swift */; };
+		2DD096722BBD71540043ED78 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096712BBD71540043ED78 /* LaunchView.swift */; };
+		2DD096782BBD739B0043ED78 /* LauchUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096772BBD739B0043ED78 /* LauchUIState.swift */; };
+		2DD0967A2BBD73C20043ED78 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096792BBD73C20043ED78 /* LaunchViewModel.swift */; };
+		2DD0967C2BBD746F0043ED78 /* LaunchViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0967B2BBD746F0043ED78 /* LaunchViewRouter.swift */; };
+		2DD096812BBD74B80043ED78 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096802BBD74B80043ED78 /* HomeViewModel.swift */; };
+		2DD096842BBD74E40043ED78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096832BBD74E40043ED78 /* HomeView.swift */; };
+		2DD0968A2BBD782B0043ED78 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096892BBD782B0043ED78 /* SignInView.swift */; };
+		2DD0968C2BBD78350043ED78 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0968B2BBD78350043ED78 /* SignInViewModel.swift */; };
+		2DD0968E2BBD78480043ED78 /* SignInUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0968D2BBD78480043ED78 /* SignInUIState.swift */; };
+		2DD096902BBD78570043ED78 /* SignInViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0968F2BBD78570043ED78 /* SignInViewRouter.swift */; };
+		2DD096932BBD7DE60043ED78 /* EditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096922BBD7DE60043ED78 /* EditTextView.swift */; };
+		2DD096982BBD7ED40043ED78 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096972BBD7ED40043ED78 /* CustomTextFieldStyle.swift */; };
+		2DD0969A2BBD81CC0043ED78 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096992BBD81CC0043ED78 /* Mask.swift */; };
+		2DD0969C2BBD906B0043ED78 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0969B2BBD906B0043ED78 /* String.swift */; };
+		2DD0969E2BBD96DA0043ED78 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DD096562BBD684A0043ED78 /* starbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD096592BBD684A0043ED78 /* starbucksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starbucksApp.swift; sourceTree = "<group>"; };
-		2DD0965B2BBD684A0043ED78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DD0965D2BBD684B0043ED78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD096602BBD684B0043ED78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DD0966D2BBD6DA40043ED78 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2DD096712BBD71540043ED78 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		2DD096772BBD739B0043ED78 /* LauchUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchUIState.swift; sourceTree = "<group>"; };
+		2DD096792BBD73C20043ED78 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		2DD0967B2BBD746F0043ED78 /* LaunchViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewRouter.swift; sourceTree = "<group>"; };
+		2DD096802BBD74B80043ED78 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2DD096832BBD74E40043ED78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2DD096892BBD782B0043ED78 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		2DD0968B2BBD78350043ED78 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		2DD0968D2BBD78480043ED78 /* SignInUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIState.swift; sourceTree = "<group>"; };
+		2DD0968F2BBD78570043ED78 /* SignInViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewRouter.swift; sourceTree = "<group>"; };
+		2DD096922BBD7DE60043ED78 /* EditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextView.swift; sourceTree = "<group>"; };
+		2DD096972BBD7ED40043ED78 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		2DD096992BBD81CC0043ED78 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		2DD0969B2BBD906B0043ED78 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +81,10 @@
 		2DD096582BBD684A0043ED78 /* starbucks */ = {
 			isa = PBXGroup;
 			children = (
+				2DD096912BBD7DD60043ED78 /* Components */,
+				2DD0966C2BBD6D810043ED78 /* Extensions */,
+				2DD096672BBD6D5C0043ED78 /* Core */,
 				2DD096592BBD684A0043ED78 /* starbucksApp.swift */,
-				2DD0965B2BBD684A0043ED78 /* ContentView.swift */,
 				2DD0965D2BBD684B0043ED78 /* Assets.xcassets */,
 				2DD0965F2BBD684B0043ED78 /* Preview Content */,
 			);
@@ -65,6 +97,155 @@
 				2DD096602BBD684B0043ED78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DD096672BBD6D5C0043ED78 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096852BBD78070043ED78 /* SignIn */,
+				2DD0967D2BBD74A80043ED78 /* Home */,
+				2DD096682BBD6D630043ED78 /* Launch */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2DD096682BBD6D630043ED78 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096752BBD73760043ED78 /* View */,
+				2DD096742BBD736E0043ED78 /* ViewModel */,
+				2DD096762BBD73840043ED78 /* Model */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		2DD0966C2BBD6D810043ED78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DD0966D2BBD6DA40043ED78 /* Color.swift */,
+				2DD0969B2BBD906B0043ED78 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DD096742BBD736E0043ED78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096792BBD73C20043ED78 /* LaunchViewModel.swift */,
+				2DD0967B2BBD746F0043ED78 /* LaunchViewRouter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DD096752BBD73760043ED78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096712BBD71540043ED78 /* LaunchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD096762BBD73840043ED78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096772BBD739B0043ED78 /* LauchUIState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DD0967D2BBD74A80043ED78 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096822BBD74DD0043ED78 /* View */,
+				2DD0967F2BBD74AF0043ED78 /* ViewModel */,
+				2DD0967E2BBD74AC0043ED78 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2DD0967E2BBD74AC0043ED78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DD0967F2BBD74AF0043ED78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096802BBD74B80043ED78 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DD096822BBD74DD0043ED78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096832BBD74E40043ED78 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD096852BBD78070043ED78 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096882BBD781E0043ED78 /* View */,
+				2DD096872BBD78150043ED78 /* ViewModel */,
+				2DD096862BBD78100043ED78 /* Model */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		2DD096862BBD78100043ED78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DD0968D2BBD78480043ED78 /* SignInUIState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DD096872BBD78150043ED78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DD0968B2BBD78350043ED78 /* SignInViewModel.swift */,
+				2DD0968F2BBD78570043ED78 /* SignInViewRouter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DD096882BBD781E0043ED78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096892BBD782B0043ED78 /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD096912BBD7DD60043ED78 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096962BBD7EBA0043ED78 /* Style */,
+				2DD096952BBD7EAE0043ED78 /* View */,
+				2DD096992BBD81CC0043ED78 /* Mask.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2DD096952BBD7EAE0043ED78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096922BBD7DE60043ED78 /* EditTextView.swift */,
+				2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD096962BBD7EBA0043ED78 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				2DD096972BBD7ED40043ED78 /* CustomTextFieldStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +318,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD0965C2BBD684A0043ED78 /* ContentView.swift in Sources */,
+				2DD0969E2BBD96DA0043ED78 /* LoadingButton.swift in Sources */,
+				2DD096842BBD74E40043ED78 /* HomeView.swift in Sources */,
+				2DD0969A2BBD81CC0043ED78 /* Mask.swift in Sources */,
+				2DD096782BBD739B0043ED78 /* LauchUIState.swift in Sources */,
+				2DD096722BBD71540043ED78 /* LaunchView.swift in Sources */,
+				2DD0968A2BBD782B0043ED78 /* SignInView.swift in Sources */,
+				2DD096812BBD74B80043ED78 /* HomeViewModel.swift in Sources */,
+				2DD0968C2BBD78350043ED78 /* SignInViewModel.swift in Sources */,
 				2DD0965A2BBD684A0043ED78 /* starbucksApp.swift in Sources */,
+				2DD0966E2BBD6DA40043ED78 /* Color.swift in Sources */,
+				2DD0968E2BBD78480043ED78 /* SignInUIState.swift in Sources */,
+				2DD0967C2BBD746F0043ED78 /* LaunchViewRouter.swift in Sources */,
+				2DD096932BBD7DE60043ED78 /* EditTextView.swift in Sources */,
+				2DD096902BBD78570043ED78 /* SignInViewRouter.swift in Sources */,
+				2DD0969C2BBD906B0043ED78 /* String.swift in Sources */,
+				2DD0967A2BBD73C20043ED78 /* LaunchViewModel.swift in Sources */,
+				2DD096982BBD7ED40043ED78 /* CustomTextFieldStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +474,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +503,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
