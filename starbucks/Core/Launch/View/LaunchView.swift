@@ -10,9 +10,7 @@ import SwiftUI
 struct LaunchView: View {
     
     @ObservedObject var viewModel: LaunchViewModel
-    
     @Binding var showLaunchView: Bool
-
     
     var body: some View {
         
@@ -31,7 +29,6 @@ struct LaunchView: View {
         })
     }
 }
-
 
 extension LaunchView {
     func loadingView(error: String? = nil) ->some View{

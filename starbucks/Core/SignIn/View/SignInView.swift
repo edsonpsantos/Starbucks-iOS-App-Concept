@@ -19,29 +19,49 @@ struct SignInView: View {
             
             HStack {
                 VStack(alignment: .leading, spacing: 16){
-                    Text("STARBUCKS")
-                        .font(.title)
-                        .fontWeight(.heavy)
-                        .foregroundStyle(Color.theme.darkGreen)
-                        .padding(.horizontal, 8)
+                    HStack(spacing: 0) {
+                        Text("STARBUCKS")
+                            .font(.title)
+                            .tracking(2)
+                            .fontWeight(.heavy)
+                            .foregroundStyle(Color.theme.darkGreen)
+                        
+                        Text("TM")
+                            .font(.system(size: 8))
+                            .padding(.bottom, 16)
+                    }
+                    .padding(.horizontal, 8)
+                    .padding(.bottom, 16)
                     
                     Text("Welcome back!")
-                        .font(.title3)
-                        .fontWeight(.heavy)
+                        .font(.system(size: 32))
+                        .fontWeight(.bold)
                         .padding(.horizontal, 8)
                         .padding(.bottom, 48)
-
+                    
                     emailField
                     passwordField
-                    emailField
-                    emailField
+                    
+                    Text("Forgot your password?")
+                        .font(.subheadline.bold())
+                        .foregroundStyle(Color.theme.text)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .padding(.vertical, 16)
+                        .onTapGesture {
+                            //TODO: goToSignUpView
+                        }
+                    
+                    LoadingButton(action: {
+                        
+                    }, text: "Log in")
+                    
                     
                     Text("Copyright @Edson Santos 2024")
                         .foregroundColor(Color.gray)
                         .font(Font.system(size: 13).bold())
                         .padding(.top, 16)
                         .padding(.leading,80)
-
+                    
                 }
                 .padding(.horizontal, 16)
                 
@@ -60,6 +80,7 @@ extension SignInView{
             keyboard: .emailAddress,
             error: "E-mail inválido",
             failure: !viewModel.email.isEmail()
+            
         ).autocapitalization(.none)
     }
     
@@ -68,14 +89,15 @@ extension SignInView{
             text: $viewModel.password,
             placeholder: "Senha",
             keyboard: .numberPad,
+            iconName: "eye",
             error: "Senha deve ter pelo menos 8 caracteres",
             failure: viewModel.password.count < 8,
             isSecure: true
         )
     }
     
-  
-
+    
+    
 }
 
 #Preview {

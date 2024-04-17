@@ -22,6 +22,14 @@ struct LoadingButton: View {
                 Text(showProgressBar ? "" : text)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)
+                    .padding(.horizontal, 16)
+                    .font(.system(.title3).bold())
+                    .background(
+                        disabled ? Color.theme.lightGreen :
+                            Color.theme.mediumGreen
+                    )
+                    .foregroundStyle(Color.theme.white)
+                    .cornerRadius(5)
             }.disabled(disabled || showProgressBar)
         }
     }
