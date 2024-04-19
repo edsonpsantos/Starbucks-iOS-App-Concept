@@ -10,5 +10,4 @@ import Foundation
 enum LauchUIState {
     case loading
     case goToSignInView
-    case error(String)
 }

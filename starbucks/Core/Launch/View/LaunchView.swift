@@ -20,8 +20,6 @@ struct LaunchView: View {
                 loadingView()
             case .goToSignInView:
                 viewModel.SignInView()
-            case .error(let error):
-                loadingView(error: error)
             }
         }
         .onAppear(perform: {

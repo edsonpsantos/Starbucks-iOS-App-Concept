@@ -29,7 +29,7 @@ struct starbucksApp: App {
         WindowGroup {
             ZStack {
                 NavigationView{
-                    HomeView(vm: viewModel)
+                    HomeView(vm: viewModel, searchMenu: .constant(""))
                         .navigationBarHidden(true)
                 }
                 .navigationViewStyle(StackNavigationViewStyle())

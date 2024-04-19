@@ -11,7 +11,7 @@ import SwiftUI
 enum SignInViewRouter{
     
     static func makeHomeView(homeViewModel: HomeViewModel) -> some View {
-        return HomeView(vm: homeViewModel)
+        return HomeView(vm: homeViewModel, searchMenu: .constant(""))
     }
     
 }

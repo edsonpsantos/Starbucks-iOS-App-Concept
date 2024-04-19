@@ -26,6 +26,13 @@
 		2DD0969A2BBD81CC0043ED78 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096992BBD81CC0043ED78 /* Mask.swift */; };
 		2DD0969C2BBD906B0043ED78 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0969B2BBD906B0043ED78 /* String.swift */; };
 		2DD0969E2BBD96DA0043ED78 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */; };
+		2DDD25292BD2B21D00431A44 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD25282BD2B21D00431A44 /* View.swift */; };
+		2DDD252B2BD2B25D00431A44 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD252A2BD2B25D00431A44 /* Blur.swift */; };
+		2DDD252D2BD2C30200431A44 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD252C2BD2C30200431A44 /* HeaderView.swift */; };
+		2DDD252F2BD2C34700431A44 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD252E2BD2C34700431A44 /* SearchBarView.swift */; };
+		2DDD25312BD2C3FD00431A44 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD25302BD2C3FD00431A44 /* BannerView.swift */; };
+		2DDD25332BD2C53500431A44 /* SegmentedProductControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD25322BD2C53500431A44 /* SegmentedProductControl.swift */; };
+		2DDD25372BD2C74600431A44 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD25362BD2C74600431A44 /* Products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +56,13 @@
 		2DD096992BBD81CC0043ED78 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 		2DD0969B2BBD906B0043ED78 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		2DDD25282BD2B21D00431A44 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		2DDD252A2BD2B25D00431A44 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		2DDD252C2BD2C30200431A44 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2DDD252E2BD2C34700431A44 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		2DDD25302BD2C3FD00431A44 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		2DDD25322BD2C53500431A44 /* SegmentedProductControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProductControl.swift; sourceTree = "<group>"; };
+		2DDD25362BD2C74600431A44 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		2DD096582BBD684A0043ED78 /* starbucks */ = {
 			isa = PBXGroup;
 			children = (
+				2DDD25342BD2C73300431A44 /* Utils */,
 				2DD096912BBD7DD60043ED78 /* Components */,
 				2DD0966C2BBD6D810043ED78 /* Extensions */,
 				2DD096672BBD6D5C0043ED78 /* Core */,
@@ -124,6 +139,7 @@
 			children = (
 				2DD0966D2BBD6DA40043ED78 /* Color.swift */,
 				2DD0969B2BBD906B0043ED78 /* String.swift */,
+				2DDD25282BD2B21D00431A44 /* View.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -236,6 +252,10 @@
 			children = (
 				2DD096922BBD7DE60043ED78 /* EditTextView.swift */,
 				2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */,
+				2DDD252C2BD2C30200431A44 /* HeaderView.swift */,
+				2DDD252E2BD2C34700431A44 /* SearchBarView.swift */,
+				2DDD25302BD2C3FD00431A44 /* BannerView.swift */,
+				2DDD25322BD2C53500431A44 /* SegmentedProductControl.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,8 +264,25 @@
 			isa = PBXGroup;
 			children = (
 				2DD096972BBD7ED40043ED78 /* CustomTextFieldStyle.swift */,
+				2DDD252A2BD2B25D00431A44 /* Blur.swift */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		2DDD25342BD2C73300431A44 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD25352BD2C73900431A44 /* Models */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2DDD25352BD2C73900431A44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD25362BD2C74600431A44 /* Products.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,13 +363,20 @@
 				2DD0968A2BBD782B0043ED78 /* SignInView.swift in Sources */,
 				2DD096812BBD74B80043ED78 /* HomeViewModel.swift in Sources */,
 				2DD0968C2BBD78350043ED78 /* SignInViewModel.swift in Sources */,
+				2DDD25312BD2C3FD00431A44 /* BannerView.swift in Sources */,
+				2DDD252B2BD2B25D00431A44 /* Blur.swift in Sources */,
 				2DD0965A2BBD684A0043ED78 /* starbucksApp.swift in Sources */,
+				2DDD252F2BD2C34700431A44 /* SearchBarView.swift in Sources */,
 				2DD0966E2BBD6DA40043ED78 /* Color.swift in Sources */,
 				2DD0968E2BBD78480043ED78 /* SignInUIState.swift in Sources */,
 				2DD0967C2BBD746F0043ED78 /* LaunchViewRouter.swift in Sources */,
 				2DD096932BBD7DE60043ED78 /* EditTextView.swift in Sources */,
 				2DD096902BBD78570043ED78 /* SignInViewRouter.swift in Sources */,
+				2DDD252D2BD2C30200431A44 /* HeaderView.swift in Sources */,
+				2DDD25292BD2B21D00431A44 /* View.swift in Sources */,
 				2DD0969C2BBD906B0043ED78 /* String.swift in Sources */,
+				2DDD25332BD2C53500431A44 /* SegmentedProductControl.swift in Sources */,
+				2DDD25372BD2C74600431A44 /* Products.swift in Sources */,
 				2DD0967A2BBD73C20043ED78 /* LaunchViewModel.swift in Sources */,
 				2DD096982BBD7ED40043ED78 /* CustomTextFieldStyle.swift in Sources */,
 			);

@@ -31,6 +31,10 @@ struct LoadingButton: View {
                     .foregroundStyle(Color.theme.white)
                     .cornerRadius(5)
             }.disabled(disabled || showProgressBar)
+            
+            ProgressView()
+                .progressViewStyle(CircularProgressViewStyle())
+                .opacity(showProgressBar ? 1 : 0)
         }
     }
 }

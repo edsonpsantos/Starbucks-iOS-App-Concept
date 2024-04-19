@@ -20,7 +20,7 @@ struct ColorTheme {
     let darkGreen = Color("DarkGreenColor")
     let lightGreen = Color("LightGreenColor")
     let mediumGreen = Color("MediumGreenColor")
-    let lightGrey = Color("LigthGrey")
+    let lightGrey = Color("LightGrey")
     let accent = Color("OrangeColor")
     let text = Color("TextColor")
 }
