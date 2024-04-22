@@ -25,10 +25,10 @@ struct LoadingButton: View {
                     .padding(.horizontal, 16)
                     .font(.system(.title3).bold())
                     .background(
-                        disabled ? Color.theme.lightGreen :
-                            Color.theme.mediumGreen
+                        disabled ? Color.theme.sbLightGreen :
+                            Color.theme.sbMediumGreen
                     )
-                    .foregroundStyle(Color.theme.white)
+                    .foregroundStyle(Color.theme.sbWhite)
                     .cornerRadius(5)
             }.disabled(disabled || showProgressBar)
             

@@ -16,7 +16,7 @@ struct SignInView: View {
     
     var body: some View {
         ZStack{
-            Color.theme.background.ignoresSafeArea()
+            Color.theme.sbBackground.ignoresSafeArea()
         
             Image("loginBackground")
         
@@ -62,7 +62,7 @@ extension SignInView{
                     .font(.title)
                     .tracking(2)
                     .fontWeight(.heavy)
-                    .foregroundStyle(Color.theme.darkGreen)
+                    .foregroundStyle(Color.theme.sbDarkGreen)
                 
                 Text("TM")
                     .font(.system(size: 8))
@@ -105,7 +105,7 @@ extension SignInView{
     var forgot: some View{
         Text("Forgot your password?")
             .font(.subheadline.bold())
-            .foregroundStyle(Color.theme.text)
+            .foregroundStyle(Color.theme.sbText)
             .frame(maxWidth: .infinity, alignment: .trailing)
             .padding(.vertical, 16)
             .onTapGesture {

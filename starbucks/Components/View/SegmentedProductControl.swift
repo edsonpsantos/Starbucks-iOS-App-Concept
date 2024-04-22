@@ -25,8 +25,8 @@ struct SegmentedProductControl: View {
 extension View {
     func ThemeColors(isSelected: Bool) -> some View {
         self
-            .background(isSelected ? .darkGreen : .background)
-            .foregroundStyle(isSelected ? .white : .darkGreen)
+            .background(isSelected ? .darkGreen : .darkWhite)
+            .foregroundStyle(isSelected ? .darkWhite : .darkGreen)
     }
 }
 
@@ -34,9 +34,9 @@ extension View {
     ZStack {
         
         VStack(spacing: 40) {
-            ProductCell(title: "Cold Coffee")
-            ProductCell(title: "Frapuccino", isSelected: true)
-            ProductCell(title: "Hot Coffee")
+            SegmentedProductControl(title: "Cold Coffee")
+            SegmentedProductControl(title: "Frapuccino", isSelected: true)
+            SegmentedProductControl(title: "Hot Coffee")
         }
     }
 }

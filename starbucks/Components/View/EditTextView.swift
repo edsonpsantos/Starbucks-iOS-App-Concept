@@ -27,7 +27,7 @@ struct EditTextView: View {
             if isSecure {
                 ZStack(alignment: .trailing){
                     SecureField(placeholder, text: $text)
-                        .foregroundStyle(Color.theme.text)
+                        .foregroundStyle(Color.theme.sbText)
                         .keyboardType(keyboard)
                         .textFieldStyle(CustomTextFieldStyle())
 
@@ -37,7 +37,7 @@ struct EditTextView: View {
                             //TODO: Toggle to show/hide password
                         }, label: {
                             Image(systemName: iconName)
-                                .foregroundStyle(Color.theme.text)
+                                .foregroundStyle(Color.theme.sbText)
                                 .padding(10)
                                 .background(Color.clear)
                                 .padding(.horizontal, 8)
@@ -48,7 +48,7 @@ struct EditTextView: View {
             else {
                 HStack {
                     TextField(placeholder, text: $text)
-                        .foregroundStyle(Color.theme.text)
+                        .foregroundStyle(Color.theme.sbText)
                         .keyboardType(keyboard)
                         .autocapitalization(autoCapitalization)
                         .textFieldStyle(CustomTextFieldStyle())
@@ -60,7 +60,7 @@ struct EditTextView: View {
                     
                     if let iconName = iconName {
                         Image(systemName: iconName)
-                            .foregroundStyle(Color.theme.text)
+                            .foregroundStyle(Color.theme.sbText)
                     }
                 }
                 

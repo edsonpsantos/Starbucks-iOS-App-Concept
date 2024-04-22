@@ -17,11 +17,11 @@ struct starbucksApp: App {
     
     init(){
         UINavigationBar.appearance()
-            .largeTitleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
+            .largeTitleTextAttributes = [.foregroundColor : UIColor(Color.theme.sbAccent)]
         
         UINavigationBar.appearance()
-            .titleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
-        UINavigationBar.appearance().tintColor = UIColor(Color.theme.accent)
+            .titleTextAttributes = [.foregroundColor : UIColor(Color.theme.sbAccent)]
+        UINavigationBar.appearance().tintColor = UIColor(Color.theme.sbAccent)
         UITableView.appearance().backgroundColor = UIColor.clear
     }
     

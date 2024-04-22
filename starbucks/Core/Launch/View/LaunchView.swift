@@ -31,7 +31,7 @@ struct LaunchView: View {
 extension LaunchView {
     func loadingView(error: String? = nil) ->some View{
         ZStack {
-            Color.theme.darkGreen.ignoresSafeArea()
+            Color.theme.sbDarkGreen.ignoresSafeArea()
             Image("loginBackground")
 
             Image("logo")

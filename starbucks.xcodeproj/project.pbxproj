@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D808B172BD6B3CE008B27B1 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D808B162BD6B3CE008B27B1 /* Shape.swift */; };
+		2D808B192BD6B45F008B27B1 /* ProductWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D808B182BD6B45E008B27B1 /* ProductWidget.swift */; };
+		2D808B1B2BD6C55C008B27B1 /* CircleImageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D808B1A2BD6C55C008B27B1 /* CircleImageButtonView.swift */; };
 		2DD0965A2BBD684A0043ED78 /* starbucksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD096592BBD684A0043ED78 /* starbucksApp.swift */; };
 		2DD0965E2BBD684B0043ED78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD0965D2BBD684B0043ED78 /* Assets.xcassets */; };
 		2DD096612BBD684B0043ED78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD096602BBD684B0043ED78 /* Preview Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D808B162BD6B3CE008B27B1 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		2D808B182BD6B45E008B27B1 /* ProductWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductWidget.swift; sourceTree = "<group>"; };
+		2D808B1A2BD6C55C008B27B1 /* CircleImageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageButtonView.swift; sourceTree = "<group>"; };
 		2DD096562BBD684A0043ED78 /* starbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD096592BBD684A0043ED78 /* starbucksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starbucksApp.swift; sourceTree = "<group>"; };
 		2DD0965D2BBD684B0043ED78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -242,7 +248,6 @@
 			children = (
 				2DD096962BBD7EBA0043ED78 /* Style */,
 				2DD096952BBD7EAE0043ED78 /* View */,
-				2DD096992BBD81CC0043ED78 /* Mask.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -250,12 +255,16 @@
 		2DD096952BBD7EAE0043ED78 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2DD096922BBD7DE60043ED78 /* EditTextView.swift */,
-				2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */,
-				2DDD252C2BD2C30200431A44 /* HeaderView.swift */,
-				2DDD252E2BD2C34700431A44 /* SearchBarView.swift */,
 				2DDD25302BD2C3FD00431A44 /* BannerView.swift */,
+				2DD096922BBD7DE60043ED78 /* EditTextView.swift */,
+				2DDD252C2BD2C30200431A44 /* HeaderView.swift */,
+				2DD0969D2BBD96DA0043ED78 /* LoadingButton.swift */,
+				2DD096992BBD81CC0043ED78 /* Mask.swift */,
+				2DDD252E2BD2C34700431A44 /* SearchBarView.swift */,
 				2DDD25322BD2C53500431A44 /* SegmentedProductControl.swift */,
+				2D808B162BD6B3CE008B27B1 /* Shape.swift */,
+				2D808B182BD6B45E008B27B1 /* ProductWidget.swift */,
+				2D808B1A2BD6C55C008B27B1 /* CircleImageButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -365,6 +374,8 @@
 				2DD0968C2BBD78350043ED78 /* SignInViewModel.swift in Sources */,
 				2DDD25312BD2C3FD00431A44 /* BannerView.swift in Sources */,
 				2DDD252B2BD2B25D00431A44 /* Blur.swift in Sources */,
+				2D808B172BD6B3CE008B27B1 /* Shape.swift in Sources */,
+				2D808B1B2BD6C55C008B27B1 /* CircleImageButtonView.swift in Sources */,
 				2DD0965A2BBD684A0043ED78 /* starbucksApp.swift in Sources */,
 				2DDD252F2BD2C34700431A44 /* SearchBarView.swift in Sources */,
 				2DD0966E2BBD6DA40043ED78 /* Color.swift in Sources */,
@@ -377,6 +388,7 @@
 				2DD0969C2BBD906B0043ED78 /* String.swift in Sources */,
 				2DDD25332BD2C53500431A44 /* SegmentedProductControl.swift in Sources */,
 				2DDD25372BD2C74600431A44 /* Products.swift in Sources */,
+				2D808B192BD6B45F008B27B1 /* ProductWidget.swift in Sources */,
 				2DD0967A2BBD73C20043ED78 /* LaunchViewModel.swift in Sources */,
 				2DD096982BBD7ED40043ED78 /* CustomTextFieldStyle.swift in Sources */,
 			);

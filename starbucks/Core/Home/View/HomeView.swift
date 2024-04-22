@@ -11,10 +11,20 @@ struct HomeView: View {
     
     @StateObject var vm: HomeViewModel
     @State private var userName: String="John"
-    @State private var selectedProduct: Products? = nil
+    @State private var selectedCategory: Categories? = nil
     @Binding var searchMenu: String
     
-    
+    @State private var searchText: String = ""
+    var searchResult: [Products]{
+        if searchText.isEmpty{
+            return Products.products
+        } else {
+            return Products.products.filter {
+                $0.name.contains(searchText)
+            }
+        }
+    }
+        
     var body: some View {
         
         ZStack{
@@ -28,49 +38,31 @@ struct HomeView: View {
                 BannerView()
                 
                 ScrollView(.horizontal) {
-                    HStack(spacing: 0){
-                        ForEach(Products.allCases, id: \.self){ product in
+                    HStack(spacing: 12){
+                        ForEach(Categories.allCases, id: \.self){ product in
                         
-                            SegmentedProductControl(title: product.rawValue.capitalized, isSelected: product == selectedProduct)
+                            SegmentedProductControl(title: product.rawValue.capitalized, isSelected: product == selectedCategory)
                                 .onTapGesture {
-                                    selectedProduct = product
+                                    selectedCategory = product
                                 }
                         }
                     }
                 }
-                    .scrollIndicators(.hidden)
+                .scrollIndicators(.hidden)
+                
+                ScrollView(.horizontal) {
+                    HStack(spacing: 0) {
+                        ForEach(searchResult) { product in
+                            ProductWidget(product: product)
+                        }
+                    }
+                    .frame(maxHeight: .infinity)
+                    .padding(.horizontal, 2)
+                }
+                .scrollIndicators(.hidden)
             }
         }
-        
-        //        VStack(spacing: 0){
-        //            VStack(alignment: .leading){
-        //                headerSection
-        //                searchBarSection
-        //            }
-        //            .padding(.horizontal, 16)
-        //            .padding(.top, 56)
-        //            .backgroundBlur(radius: 20, opaque: true)
-        //            .ignoresSafeArea()
-        //            .background(.red)
-        //
-        //            ScrollView(showsIndicators: false) {
-        //                VStack{
-        //                    ForEach(0..<20){_ in
-        //                        Rectangle()
-        //                            .background(.green)
-        //                            .frame(width: 100, height: 50)
-        //                    }
-        //                }
-        //            }
-        //            .safeAreaInset(edge: .top) {
-        //                EmptyView()
-        //                    .frame(height: 10)
-        //            }
-        //        }
-        
     }
-    
-    
 }
 
 #Preview {
