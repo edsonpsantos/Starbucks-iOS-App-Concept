@@ -20,8 +20,8 @@ The repository contains all the code based on an MVVM architecture pattern to or
 ##  📱 App screens:
 As I progress in development, I add the images
 
-![Splash View](https://github.com/edsonpsantos/images/blob/main/StarbucksUIConcept/SplashView.png)
-![SigIn View](https://github.com/edsonpsantos/images/blob/main/StarbucksUIConcept/SignInView.png)
+![Splash View](https://github.com/edsonpsantos/images/blob/main/ios_images/StarbucksUIConcept/SplashView.png)
+![SigIn View](https://github.com/edsonpsantos/images/blob/main/ios_images/StarbucksUIConcept/SignInView.png)
 
 
 🙏🏽 Thanks for your attention! 
